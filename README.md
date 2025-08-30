@@ -1,4 +1,4 @@
-# Netflix GPT
+<h1># Netflix GPT</h1>
  -create react app
  -configured tailwindcss
  -header
