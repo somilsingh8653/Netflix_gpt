@@ -13,6 +13,7 @@ console.log(movies);
                     <MovieCard key={movie.id} posterPath={movie.poster_path}/>
                    ))
                 }
+                
             
             </div>
         </div>
