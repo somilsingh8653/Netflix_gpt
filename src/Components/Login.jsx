@@ -5,6 +5,7 @@ import {checkValidData} from '../Utils/Validate.js'
 import { createUserWithEmailAndPassword , signInWithEmailAndPassword } from "firebase/auth";
 import {auth} from "../Utils/firebase.js"
 import { useNavigate } from 'react-router-dom';
+import { BG_URL } from '../Utils/constants.js';
 
 const Login = () => {
 
@@ -37,7 +38,7 @@ const Login = () => {
     // Signed up 
     const user = userCredential.user;
     console.log(user);
-    navigate("/Browse.jsx");
+    
     
   })
    .catch((error) => {
@@ -55,7 +56,7 @@ const Login = () => {
     // Signed in 
     const user = userCredential.user;
     console.log(user);
-     navigate("/Browse");
+     
     
   })
   .catch((error) => {
@@ -74,7 +75,7 @@ const Login = () => {
       <Header/>
       <div className='absolute'>
         <img 
-        src="https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg "
+        src={BG_URL}
         alt="bgimg"
         />
       </div>
