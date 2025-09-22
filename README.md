@@ -24,3 +24,6 @@
 -fetch data for tariler
 -update store with tariler video Data
 -Embedded the youtube video and make it autoplay & mute
+-Build Secondary Component
+-Build MovieList
+-build MovieCard
