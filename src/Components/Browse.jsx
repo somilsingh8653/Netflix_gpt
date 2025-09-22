@@ -7,9 +7,9 @@ import usePopularMovies from '../hooks/usePopularMovies ';
 import { useSelector } from 'react-redux';
 import GptSearch from './GptSearch';
 
-const Browse = () => {
+const Browse = ()=> {
 
-  const showGptSearch =useSelector((store)=>store.showGptSearch);
+  const showGptSearch =useSelector((store)=>store.gpt.showGptSearch);
    
   useNowPlayingMovies();
   usePopularMovies();

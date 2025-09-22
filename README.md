@@ -27,3 +27,8 @@
 -Build Secondary Component
 -Build MovieList
 -build MovieCard
+-usePopularMovies Custom hook
+-GPT Search Page
+-GPT Search Bar
+-Multi langauage Features in our app.
+
